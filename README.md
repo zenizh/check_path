@@ -1,6 +1,7 @@
 # rails-check_path
 
 [![Build Status](https://travis-ci.org/kami30k/rails-check_path.svg)](https://travis-ci.org/kami30k/rails-check_path)
+[![Gem Version](https://badge.fury.io/rb/rails-check_path.svg)](http://badge.fury.io/rb/rails-check_path)
 
 rails-check_path extends ActionView::Helpers::UrlHelper in Rails application.
 It just add some methods, such as `root_path?`, `post_path?(id: 1)`, and so on.
