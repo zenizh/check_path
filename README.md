@@ -1,9 +1,9 @@
-# rails-check_path
+# CheckPath
 
-[![Build Status](https://travis-ci.org/kami30k/rails-check_path.svg)](https://travis-ci.org/kami30k/rails-check_path)
-[![Gem Version](https://badge.fury.io/rb/rails-check_path.svg)](http://badge.fury.io/rb/rails-check_path)
+[![Build Status](https://travis-ci.org/kami30k/check_path.svg)](https://travis-ci.org/kami30k/check_path)
+[![Gem Version](https://badge.fury.io/rb/check_path.svg)](http://badge.fury.io/rb/check_path)
 
-rails-check_path extends ActionView::Helpers::UrlHelper in Rails application.
+CheckPath extends ActionView::Helpers::UrlHelper in Rails application.
 It just add some methods, such as `root_path?`, `post_path?(id: 1)`, and so on.
 
 ## Installation
@@ -11,7 +11,7 @@ It just add some methods, such as `root_path?`, `post_path?(id: 1)`, and so on.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rails-check_path'
+gem 'check_path'
 ```
 
 And then execute:
@@ -65,7 +65,7 @@ However, using this gem, your code will more clearly.
 
 ## Contributing
 
-1. Fork it ( https://github.com/kami30k/rails-check_path/fork )
+1. Fork it ( https://github.com/kami30k/check_path/fork )
 2. Create your feature branch (git checkout -b my-new-feature)
 3. Commit your changes (git commit -am 'Add some feature')
 4. Push to the branch (git push origin my-new-feature)

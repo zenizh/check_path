@@ -9,7 +9,7 @@ require "sprockets/railtie"
 # require "rails/test_unit/railtie"
 
 Bundler.require(*Rails.groups)
-require "rails-check_path"
+require "check_path"
 
 module Dummy
   class Application < Rails::Application

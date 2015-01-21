@@ -1,6 +1,6 @@
 require 'rails_helper'
 
-describe Rails::CheckPath::Helper do
+describe CheckPath::Base do
   subject { helper }
 
   context 'when access root_path' do
